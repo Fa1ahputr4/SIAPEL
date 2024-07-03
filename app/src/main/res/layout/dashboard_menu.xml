@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DASHBOAR MENU"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <ImageView
+            android:id="@+id/iv_rek"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/musik"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity=""/>
+
+        <TextView
+            android:id="@+id/tv_trek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tabel Jenis Rekening"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <ImageView
+            android:id="@+id/iv_pel"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/musik"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity=""/>
+
+        <TextView
+            android:id="@+id/tv_tpel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tabel Pelanggan"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
